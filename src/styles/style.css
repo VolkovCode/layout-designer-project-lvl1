@@ -1,7 +1,58 @@
 /** CSS STYLE **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Neucha';
+  src: url('../assets/fonts/Neucha-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url('../assets/fonts/Open_Sans.zip');
+}
+
+
 
 .hello {
   display: block;
 
   color: #fff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* font-family: 'Neucha'; */
+}
+
+.header {
+  position: relative;
+  background-image: url("../assets/images/header-background.svg");
+  width: 1440px;
+  height: 914px;
+}
+
+.header .header-card {
+  position: absolute;
+  top: 55px;
+  left: 461px;
+}
+
+.header-title {
+  margin-left: 165px;
+  margin-top: 100px;
+  /* font: 72px/1.2 'Neucha'; */
+  /* font-size: 72px; */
+}
+
+.header-title h1 {
+  font: 72px/1.2 'Neucha';
+}
+
+.header .orange {
+  color: #FE8A02;
 }
