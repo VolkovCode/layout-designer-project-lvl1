@@ -11,7 +11,13 @@
 
 @font-face {
   font-family: 'Open-Sans';
-  src: url('../assets/fonts/Open_Sans.zip');
+  src: url('../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Open-Sans';
+  src: url('../assets/fonts/OpenSans-Bold.ttf');
 }
 
 
@@ -55,4 +61,24 @@ body {
 
 .header .orange {
   color: #FE8A02;
+}
+
+.welcome-text {
+  font: 16px/1.6 'Open-Sans';
+  position: absolute;
+  columns: 540px 2;
+  column-gap: 30px;
+  top: 540px;
+  left: 165px;
+}
+
+.more-btn {
+  position: absolute;
+  background-color: #FE8A02;
+  color: #FFFFFF;
+  padding: 11px 23px 12px 24px;
+  border: none;
+  font: 700 16px/1.6 'Open-Sans';
+  left: 735px;
+  bottom: 100px;
 }
